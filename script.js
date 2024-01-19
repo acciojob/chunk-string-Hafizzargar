@@ -5,7 +5,7 @@ function stringChop(str, size) {
 	let i=0
 	while(i<str.length-1){
 		let s="";
-	  i=z;
+	    i=z;
 		z=z+size;
 	    
 		for(let j=i;j<z;j++){
@@ -14,6 +14,7 @@ function stringChop(str, size) {
 		arr.push(s);
 		
 	}
+	arr.pop();
 	return arr;
 }
 
